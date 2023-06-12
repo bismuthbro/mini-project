@@ -1,0 +1,14 @@
+.fonted{font-family: 'Josefin Sans', sans-serif;}
+.navitem{color: #dc7f14; text-decoration: none;}
+.navitem:visited{color: #dc7f14;text-decoration: none;}
+.moveleft{margin-left: 50px;}
+.title{margin-top: 20px; font-size: 300%;font-weight: bold;text-align:center;position:absolute;width: 100%;animation: slidein;animation-duration: 2s;}
+@keyframes slidein {
+    0%{
+        margin-right: 10px; 
+    }
+    100%{
+      margin-right: 500px;
+    }
+}
+.graphtitle{margin-top: 20px; font-size: 200%;font-weight: bold;}
